@@ -1,0 +1,33 @@
+*{
+    font-family: 'Minimal', sans-serif;
+    }
+    body{
+      height: 100%;
+      margin: 0;
+      padding: 0;
+    }
+    .card{
+      /* margin-top: auto;
+      align-items: center;
+      width: 15cm;
+      max-width: 400px;
+      padding: 20px;
+      border-radius: 8px;
+    
+      background-color: aliceblue;
+       */
+       background-color: rgb(255, 255, 255);
+       border-radius: 10px;
+       box-shadow: 0 5px 5px;
+       max-width: 500px;
+      padding: 20px;
+      border-radius: 8px;
+      margin-top: 10px;
+    } 
+    .container{
+    
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    
+    }
