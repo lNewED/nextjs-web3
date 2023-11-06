@@ -19,7 +19,7 @@ const [metamask, hooks] = initializeConnector(
 const { useChainId, useAccounts, useIsActivating, useIsActive, useProvider } =
   hooks;
 const contractChain = 11155111;
-const contractAddress = "0x67F6D236A48a0e500cbaA588E20ffADe6E17e77a";
+const contractAddress = "0x1FE1d7cF6E6A99979e6a5c5a07f55C95B1641B84";
 export default function Home() {
   const chainId = useChainId();
   const accounts = useAccounts();
